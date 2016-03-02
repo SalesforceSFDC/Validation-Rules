@@ -1,0 +1,6 @@
+
+	AND(
+   NOT(ISBLANK(AccountNumber)),
+   NOT(ISNUMBER(AccountNumber))
+)
+
