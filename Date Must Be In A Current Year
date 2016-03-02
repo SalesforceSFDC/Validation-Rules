@@ -1,0 +1,1 @@
+YEAR( My_Date__c ) <> YEAR ( TODAY() )
