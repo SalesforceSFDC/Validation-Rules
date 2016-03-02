@@ -1,0 +1,8 @@
+AND(
+   RIGHT( Web_Site__c, 4) <> ".COM",
+   RIGHT( Web_Site__c, 4) <> ".com",
+   RIGHT( Web_Site__c, 4) <> ".ORG",
+   RIGHT( Web_Site__c, 4) <> ".org",
+   RIGHT( Web_Site__c, 4) <> ".NET",
+   RIGHT( Web_Site__c, 4) <> ".net"
+ )
